@@ -27,7 +27,7 @@
 
 ---
 
-## 🧠 方法亮点（结题成果浓缩版）
+## 🧠 方法亮点
 
 ### 1) 极端路况补充数据与场景化基准
 公开数据集（如 TuSimple）多偏向晴天高速等“理想环境”，对雨雾、强光、遮挡磨损与复杂路口等覆盖不足。项目组围绕复杂场景自主采集并按 TuSimple 规范完成标注，构建“公开数据 + 补充数据 + 统一评测脚本”的场景化基准测试集。
@@ -61,13 +61,9 @@ S = 0.4\cdot F1 + 0.3\cdot FPS + 0.2\cdot SC\text{-}IoU + 0.1\cdot Avg\_Error
 ---
 
 ## 📸 界面预览（建议你后续补图）
+<img width="1710" height="1332" alt="40cf536d-6486-477a-8b7b-5b8cf22578be" src="https://github.com/user-attachments/assets/bdbb93ca-5d01-4c0a-bc09-bf9b18b8690f" />
+<img width="1625" height="1347" alt="image" src="https://github.com/user-attachments/assets/a4ad1dde-f465-41ba-9fd1-14751bdbeb8e" />
+<img width="1572" height="843" alt="6635ae21-d1fe-4e2b-8886-6f431b983a5f" src="https://github.com/user-attachments/assets/50feb32e-a840-4846-a204-556134754eb1" />
+<img width="1266" height="1173" alt="4883cefb-2dcd-484e-ab85-65823e3e70e2" src="https://github.com/user-attachments/assets/789ef015-27c3-42e1-b997-b580a45c461b" />
 
-> 你可以把截图放到 `docs/screenshots/`，然后替换下面图片路径。
 
-- 主面板（场景选择 + 最优推荐 + 图片对比）
-  - `docs/screenshots/overview.png`
-- 指标折线对比 & 单场景雷达对比
-  - `docs/screenshots/charts.png`
-
-```text
-（这里先占位：等你截图后把图片加上就很“开源范儿”）
