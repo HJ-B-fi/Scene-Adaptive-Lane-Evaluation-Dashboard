@@ -1,0 +1,22 @@
+# Node / 前端
+node_modules/
+dist/
+.build/
+.cache/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.venv/
+venv/
+env/
+
+# 前后端运行产生的内容（按你的项目来）
+backend/uploads/
+backend/outputs/
+
+# 各种系统文件
+.DS_Store
+Thumbs.db
