@@ -43,7 +43,7 @@
 \[
 S = 0.4\cdot F1 + 0.3\cdot FPS + 0.2\cdot SC\text{-}IoU + 0.1\cdot Avg\_Error
 \]
-其中 \(Avg\_Error=(FP+FN)/2\)（可按你们脚本定义调整）。
+其中 \(Avg\_Error=(FP+FN)/2\)。
 
 ### 3) 多模型协同的场景自适应框架（原型）
 将 UFLD、UFLDv2、PINet、Polar R-CNN 等模型统一封装为一致接口，并建立“场景类别→最优算法/备选算法”映射，支持在复杂场景中做算法路由与推荐，提升整体综合得分与稳健性。
@@ -55,15 +55,10 @@ S = 0.4\cdot F1 + 0.3\cdot FPS + 0.2\cdot SC\text{-}IoU + 0.1\cdot Avg\_Error
 - ✅ 场景选择 + 指标对比（折线图）
 - ✅ 单场景双算法对比（雷达图）
 - ✅ 输入/输出图像并排对比（原始图 vs 最优算法结果）
-- ✅ 上传 `inputN.*` 后端自动匹配 `outputN.*` 并返回场景信息
 - ✅ 支持 demo 静态样例 & 后端动态上传两种模式
 
 ---
 
-## 📸 界面预览（建议你后续补图）
-<img width="1710" height="1332" alt="40cf536d-6486-477a-8b7b-5b8cf22578be" src="https://github.com/user-attachments/assets/bdbb93ca-5d01-4c0a-bc09-bf9b18b8690f" />
-<img width="1625" height="1347" alt="image" src="https://github.com/user-attachments/assets/a4ad1dde-f465-41ba-9fd1-14751bdbeb8e" />
-<img width="1572" height="843" alt="6635ae21-d1fe-4e2b-8886-6f431b983a5f" src="https://github.com/user-attachments/assets/50feb32e-a840-4846-a204-556134754eb1" />
-<img width="1266" height="1173" alt="4883cefb-2dcd-484e-ab85-65823e3e70e2" src="https://github.com/user-attachments/assets/789ef015-27c3-42e1-b997-b580a45c461b" />
-
+## 📸 界面预览
+<img width="2566" height="3429" alt="2e5363a12e8648d2a3b8ac8745285eec" src="https://github.com/user-attachments/assets/b81a3d93-34dd-4e78-9d33-cef8167994ec" />
 
