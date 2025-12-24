@@ -39,11 +39,18 @@
 - **结构连续性**：SC-IoU  
 - **错误率**：FP / FN（可组合为 Avg_Error）
 
-综合评分（示例公式）：
-\[
+**综合评分**：
+
+$$
 S = 0.4\cdot F1 + 0.3\cdot FPS + 0.2\cdot SC\text{-}IoU + 0.1\cdot Avg\_Error
-\]
-其中 \(Avg\_Error=(FP+FN)/2\)。
+$$
+
+其中：
+
+$$
+Avg\_Error=\frac{FP+FN}{2}
+$$
+
 
 ### 3) 多模型协同的场景自适应框架（原型）
 将 UFLD、UFLDv2、PINet、Polar R-CNN 等模型统一封装为一致接口，并建立“场景类别→最优算法/备选算法”映射，支持在复杂场景中做算法路由与推荐，提升整体综合得分与稳健性。
